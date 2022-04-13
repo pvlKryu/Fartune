@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    font-size: 100%;
+
+}
+
+
+
+.header_container {
+    justify-content: space-between;
+    margin-left: 5%;
+
+}
+
+.header {
+    /* margin-top: 1.8%; */
+    max-width: 90%;
+    max-height: 10%;
+    display: flex;
+}
+
+.out_btn {
+    margin-left: 88%;
+    display: flex;
+    outline: none;
+    /* Для синий ободки */
+    border: 0;
+    background: transparent;
+    text-decoration: none;
+}
+
+button:hover {
+    transform: skew(-6deg);
+}
+
+
+.buttons-text {
+
+    font-style: normal;
+    font-weight: 350;
+    font-size: 20px;
+    /* identical to box height */
+    color: #333333;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.basket {
+    background-color: #C1D1EF59;
+    padding-top: 5%;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 20px;
+    background-image: url(/template/images/Лимон.png);
+}
+
+.table {
+    margin-left: 5%;
+    text-align: center;
+
+}
+
+.table_title {
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.table_element {
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.button__delete {
+    background-color: #FFF850;
+    border: 0;
+    outline: none;
+    background: transparent;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.bckg_pict {
+margin-top: 0%;
+position: relative;
+float: right;
+} 

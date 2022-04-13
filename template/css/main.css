@@ -1,0 +1,667 @@
+* {
+    box-sizing: border-box;
+    font-size: 100%;
+
+}
+
+@media only screen and (min-width : 600px) and (max-width : 1500px) {
+
+    .card1 {
+        max-width: 70%;
+    }
+
+    .header_container {
+        height: 70vh;
+    }
+
+    .card-image {
+        max-width: 70%;
+    }
+
+    .card-title {
+        font-size: 20px;
+        line-height: 20px;
+
+    }
+
+    .price,
+    .category {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 10px;
+    }
+
+    .carousel-control-prev {
+        margin-left: -12%;
+        max-height: 5%;
+        margin-top: 50%;
+
+    }
+
+    .carousel-control-next {
+        margin-right: -12%;
+        max-height: 5%;
+        margin-top: 50%;
+    }
+
+    .card_buttons1 {
+        padding-top: -50%;
+        border: 0;
+        margin-bottom: 1%;
+        margin-left: 90%;
+    }
+
+    .card_button1 {
+        height: 15px;
+        width: 15px;
+    }
+
+    .card_buttons_text1 {
+        text-align: center;
+        font-size: 12px;
+        font-weight: 650;
+    }
+
+    .yellow_button_2 {
+        padding-top: 0.75%;
+        height: 2%;
+        width: 10%;
+        padding: 0%;
+        margin-top: 1%;
+    }
+
+    .down_footer {
+        justify-content: space-between;
+        display: flex;
+        height: 5%;
+        margin-top: 10%;
+        padding-top: 0.75%;
+        background: #FFF850;
+        max-width: 100%;
+    }
+
+    .buttons-text {
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .basket-pict {
+        max-width: 15px;
+    }
+
+    .down_footer_text {
+        max-width: 50%;
+        padding-left: 10%;
+    }
+
+    .nav1 {
+        margin-left: 85%;
+        width: 5%;
+    }
+
+    .main_info {
+        margin-left: 7.9%;
+        margin-top: 5%;
+        max-width: 55%;
+        font-weight: 650;
+        font-size: 22px;
+    }
+
+    .yellow_button {
+        position: relative;
+        border: 0;
+        border-radius: 3%;
+        padding: 1% 3%;
+        margin-right: 100px;
+    }
+
+    .main_container {
+
+        position: relative;
+        /* height: 340vh; */
+        background: #ffff;
+        font-family: Montserrat;
+        font-style: normal;
+        color: 4E4D4D;
+        background-size: cover;
+        max-width: 100%;
+    }
+
+    .info {
+        max-height: 30%;
+        padding-top: 4%;
+        position: relative;
+        margin-left: 20%;
+        max-width: 90%;
+        margin-bottom: 43%;
+    }
+
+    .sandvich {
+        max-width: 100%;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+
+    .yellow_box {
+        margin-right: 20%;
+        max-width: 50%;
+        float: right;
+        text-align: left;
+        padding-left: 5%;
+        z-index: -1;
+
+    }
+
+    .yellow_box_main_text {
+        max-width: 90%;
+        padding-top: 15%;
+        padding-bottom: 10%;
+    }
+
+    .quote {
+        padding-bottom: 8%;
+    }
+
+    .cafees {
+
+        max-width: 80%;
+        padding-top: 10%;
+        margin-top: 55%;
+        margin-right: 10%;
+        text-align: center;
+        margin-left: 10%;
+
+
+    }
+
+
+
+}
+
+
+.basket-pict {
+    max-width: 20px;
+}
+
+
+.header_container {
+    position: relative;
+    /* margin-top: -2%;
+    margin-right: -2%; */
+    background: #c0c0c0;
+
+    font-family: Montserrat;
+    font-style: normal;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+    background-image: url(/template/images/cap.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.header {
+    /* margin-top: 1.8%; */
+    max-width: 60%;
+    max-height: 10%;
+    display: flex;
+}
+
+
+.logo {
+    margin-top: 1.8%;
+    margin-left: 8.3%;
+
+    position: relative;
+
+}
+
+.nav1 {
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 45%;
+    margin-top: 1.8%;
+    width: 5%;
+}
+
+
+
+.buttons {
+    display: flex;
+    margin-right: auto;
+    margin-left: 50%;
+    outline: none;
+    /* Для синий ободки */
+    border: 0;
+    background: transparent;
+    text-decoration: none;
+}
+
+button:hover {
+    transform: skew(-6deg);
+}
+
+
+.buttons-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    /* identical to box height */
+    color: #333333;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.main_info {
+    margin-left: 6.5%;
+    margin-top: 10%;
+    max-width: 28%;
+    display: flexbox;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 1.3;
+    /* identical to box height */
+    color: #4E4D4D;
+    justify-content: space-between;
+}
+
+.yellow_button {
+    position: relative;
+    background-color: #FFF850;
+    color: #4E4D4D;
+    margin-top: 6%;
+    border: 0;
+    border-radius: 5em / 5em;
+    padding-top: 2.2%;
+    /* padding: 1% 1%; */
+}
+
+.main_container {
+
+    position: relative;
+    /* height: 340vh; */
+    background: #ffff;
+    font-family: Montserrat;
+    font-style: normal;
+    color: 4E4D4D;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.info {
+    max-height: 30%;
+    padding-top: 4%;
+    position: relative;
+    margin-left: 20%;
+    max-width: 80%;
+}
+
+
+
+
+.sandvich_pict {
+    position: relative;
+    padding-top: 5%;
+    max-width: 40%;
+    float: left;
+    /* border-radius: 35%; */
+
+}
+
+.yellow_box {
+    margin-right: 20%;
+    background: #FFF850;
+    max-width: 40%;
+    border-radius: 1%;
+    float: right;
+    text-align: left;
+    padding-left: 5%;
+    z-index: -1;
+}
+
+.yellow_box_main_text {
+    max-width: 80%;
+    padding-top: 35%;
+    padding-bottom: 20%;
+}
+
+.quote {
+    /* padding-right: 40%; */
+    padding-top: 9%;
+    text-align: right;
+    margin-left: 35%;
+    max-width: 90%;
+    padding-bottom: 1%;
+    padding-right: 4%;
+}
+
+.cafees {
+    color: 2E2E2E;
+    position: relative;
+    background: rgba(193, 209, 239, 0.35);
+    max-width: 80%;
+    /* max-height: 60hv; */
+    padding-top: 1%;
+    margin-top: 35%;
+    margin-right: 10%;
+    text-align: center;
+    margin-left: 10%;
+
+
+}
+
+/* .cafees_grids {
+    margin-top: 25%;
+    margin-bottom: 25%;
+} */
+
+.cafees_grids {
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+.cafees_grid1 {
+    position: relative;
+    max-width: 48%;
+    margin-right: 26%;
+    margin-left: 26%;
+    /* padding-top: 5%; */
+    padding-top: 3%;
+    justify-content: space-between;
+    display: flex;
+}
+
+/* .cafees_grid2 {
+    position: relative;
+    max-width: 48%;
+    margin-right: 26%;
+    margin-left: 26%;
+    padding-top: 3%;
+    justify-content: space-between;
+    display: flex;
+    padding-bottom: 5%;
+} */
+
+.cafees_grid_item {
+    background: linear-gradient(to top, #fce25b, #ecc92b);
+    box-shadow: -1px 0px rgb(196, 196, 196), -1px 1px rgb(196, 196, 196),
+        -2px 1px rgb(195, 195, 195), -2px 2px rgb(195, 195, 195),
+        -3px 2px rgb(194, 194, 194), -3px 3px rgb(194, 194, 194),
+        -4px 3px rgb(193, 193, 193), -4px 4px rgb(193, 193, 193),
+        -5px 4px rgb(192, 192, 192), -5px 5px rgb(192, 192, 192),
+        -6px 5px rgb(191, 191, 191), -6px 6px rgb(191, 191, 191),
+        -7px 6px rgb(190, 190, 190), -7px 7px rgb(190, 190, 190),
+        -8px 7px rgb(189, 189, 189), -8px 8px rgb(189, 189, 189),
+        -9px 8px rgb(188, 188, 188), -9px 9px rgb(188, 188, 188);
+
+}
+
+
+
+.cafees_grid_item:hover {
+    transform: skew(-2deg);
+}
+
+.catalog {
+    position: relative;
+    max-width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-family: Montserrat;
+    font-style: normal;
+    /* font-weight: 700; */
+    font-size: 26px;
+    /* identical to box height
+    color: #4E4D4D;
+    */
+}
+
+.catalog_title {
+    line-height: 1.3;
+    padding: 0%;
+    justify-content: space-between;
+    padding-bottom: 0.2%;
+    /* max-width: 50%; */
+
+
+}
+
+.yellow_rating {
+    color: #FFC107;
+}
+
+
+.carousel_title {
+    position: relative;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    margin-right: 90%;
+    /* margin-left: 10%; */
+    width: 500%;
+    /* padding-bottom: 1%; */
+    justify-content: space-between;
+    /* text-align: center; */
+
+}
+
+.cards1 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.carousel-control-prev {
+    margin-left: -12%;
+    max-height: 5%;
+    margin-top: 40%;
+
+}
+
+.carousel-control-next {
+    margin-right: -12%;
+    max-height: 5%;
+    margin-top: 40%;
+}
+
+.card1 {
+    background: #A7CBD9CC;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    flex-basis: 30%;
+
+}
+
+.card-image {
+    margin-top: 4%;
+    padding-left: 3%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    max-width: 97%;
+    /* width: 400px;
+    height: 250px; */
+    /* object-fit: cover; */
+}
+
+.card-text {
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.card-heading {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* margine: 0; */
+    padding-bottom: 0;
+}
+
+.card-tag {
+    border-radius: 2px;
+    padding: 1px 0px;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 4%;
+    padding-top: 0;
+}
+
+.price,
+.category {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 2px;
+    margin-top: -5%;
+}
+
+.category {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 150px;
+}
+
+.price {
+    margin-right: 10px;
+}
+
+.price:after {
+    content: "";
+    height: 5px;
+    width: 5px;
+    background: #8C8C8C;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.card_buttons1 {
+    position: relative;
+    justify-content: space-between;
+    margin-top: -15%;
+    border: 0;
+    display: flex;
+    margin-bottom: 3%;
+    margin-left: 68%;
+
+    outline: none;
+    border: 0;
+    text-decoration: none;
+}
+
+.card_button1 {
+    background-color: #FFF850;
+    color: #4E4D4D;
+    border-radius: 6%;
+    height: 30px;
+    width: 30px;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0;
+
+    outline: none;
+    border: 0;
+    text-decoration: none;
+}
+
+.card_buttons_text1 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: bold;
+    font-weight: 650;
+    letter-spacing: 0em;
+    color: black;
+    border: 0;
+    text-decoration: none;
+}
+
+.slider {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.slider_btns {
+    color: #fce25b;
+    max-width: 90%;
+}
+
+.yellow_button_2 {
+    position: relative;
+    background-color: #FFF850;
+    color: #4E4D4D;
+    border: 0;
+    border-radius: 5%;
+    padding-top: 0.75%;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 45%;
+    margin-right: 55%;
+    height: 2%;
+    width: 10%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    margin-top: 1%;
+}
+
+.down_footer {
+    justify-content: space-between;
+    display: flex;
+    height: 5%;
+    margin-top: 10%;
+    padding-top: 0.75%;
+    background: #FFF850;
+    max-width: 100%;
+}
+
+.down_footer_text {
+    max-width: 30%;
+    padding-left: 10%;
+}
+
+.down_footer_logo {
+    padding-right: 45%;
+}
